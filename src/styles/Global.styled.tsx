@@ -1,4 +1,5 @@
 import {createGlobalStyle} from "styled-components";
+import {theme} from "./Theme.tsx";
 
 export const GlobalStyle = createGlobalStyle`
     *,
@@ -31,4 +32,11 @@ export const GlobalStyle = createGlobalStyle`
         border: none;
     }
 
+    section:nth-of-type(odd) {
+    background-color: ${theme.colors.primaryBg};
+    }
+    
+    section:nth-of-type(odd) {
+        background-color: ${theme.colors.secondaryBg};
+    }
 `
