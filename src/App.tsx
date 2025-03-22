@@ -7,11 +7,14 @@ import {Testimony} from "./layout/sections/testimony/Testimony.tsx";
 import {Contact} from "./layout/sections/contacts/Contacts.tsx";
 import {Slogan} from "./layout/sections/slogan/Slogan.tsx";
 import {Footer} from "./layout/footer/Footer.tsx";
+import {GlobalStyle} from "./styles/Global.styled.tsx";
+
 
 function App() {
     return (
         <div className="App">
             <Header/>
+            <GlobalStyle/>
             <Main/>
             <Skills/>
             <Works/>
@@ -19,6 +22,7 @@ function App() {
             <Contact/>
             <Slogan/>
             <Footer/>
+
         </div>
     )
 }

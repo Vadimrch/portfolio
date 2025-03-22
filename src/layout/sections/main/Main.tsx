@@ -14,7 +14,6 @@ export const Main = () => {
                 </div>
                 <Photo src={photo} alt=""/>
             </FlexWrapper>
-
         </StyledMain>
     );
 };
