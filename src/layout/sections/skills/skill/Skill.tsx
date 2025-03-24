@@ -51,10 +51,7 @@ position: relative;
 
 const SkillTitle = styled.h3`
     margin: 70px 0 15px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1px;
+   
     text-transform: uppercase;
    
 
@@ -62,9 +59,8 @@ const SkillTitle = styled.h3`
 
 const SkillText = styled.p`
     text-align: center;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.4;
+    
+   
     
 
 `
